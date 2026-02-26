@@ -17,15 +17,10 @@ body {
     }
 
 
-    font-family: "TT Nooks Script Trial Light", system-ui, serif;
+    font-family: "TT Nooks Script Trial Light",
+    system-ui,
+    serif;
     font-size: 120%;
-
-
-    /*Police d'écriture Boulette font
-    @font-face {
-        font-family: "Boulette font";
-        src: url(boulette.ttf);
-    }*/
 
     /*marges*/
     padding: 0px;
@@ -46,6 +41,23 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: "TT Nooks Script Trial", sans-serif;
+    font-size: 400%;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(0deg, #fee47d 55px, #409a81 0%);
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: "TT Nooks Script Trial Light";
+    font-size: 150%;
+    font-weight: 400;
+}
+
 
 /*      ---       Bandeau Supérieur et Inférieur*/
 /*défintion des bandeaux*/
@@ -57,8 +69,8 @@ a {
 }
 
 /*position du bandeau suppérieur par rapport au haut de page*/
-#sup { 
-    position: fixed; 
+#sup {
+    position: fixed;
     top: 25px;
     z-index: 2;
 }
@@ -71,12 +83,13 @@ a {
 }
 
 /*      ---         Bandeau sup*/
+
 #accueil {
     /*Bouton de retour à l'accueil*/
     /*box*/
     background-color: #409a81;
     padding: 20px;
-    margin-left: 50px; 
+    margin-left: 50px;
 
     /*text*/
     font-family: "TT Nooks Script Trial", serif;
@@ -88,10 +101,13 @@ a {
 
 #menu {
     /*bande menu*/
-    position: absolute; /*le bandeau du menu ne défile pas*/
+    position: absolute;
+    /*le bandeau du menu ne défile pas*/
     right: 20%;
     margin-left: 200px;
     overflow: auto;
+    font-size: 110%;
+    font-weight: 700;
 }
 
 .bouton {
@@ -116,7 +132,6 @@ a {
 }
 
 
-
 /*Classe lien pour le portolio en page à propos*/
 
 .lien {
@@ -129,26 +144,69 @@ a {
     margin: 0px auto;
 }
 
+
+/*      ---         Animation des boutons*/
+
+
+button {
+  border: none;
+  display: block;
+  position: relative;
+  padding: 0.7em 2.4em;
+  font-size: 18px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  color: #404040;
+  z-index: 1;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+button span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  /* border: 4px solid #404040; */
+}
+
+button span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+button:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background: #404040;
+}
+
+button:hover {
+  color: white;
+}
+
+button:active span::before {
+  background: #404040;
+}
+
+
+/*
 #contact {
     margin-left: 50px;
-}
+}*/
 
 
 
-
-h1{
-    font-family: "TT Nooks Script Trial", sans-serif;
-    font-size: 400%;
-    font-weight: 800;
-    text-align: center;
-    background: linear-gradient(0deg, #fee47d 55px, #409a81 0%);
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-}
-p{
-    font-family: "TT Nooks Script Trial Light";
-    font-size: 120%;
-    font-weight: 400;
-    text-align: center;
-}
