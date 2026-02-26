@@ -1,0 +1,151 @@
+/*          ---             texte de la page a propos*/
+h1{
+  margin-top: 150px;
+  margin-bottom: 50px;
+    font-family: "Boulette font", serif;
+    font-weight: 400;
+    font-size: 500%;
+    text-align: center;
+
+}
+
+#apropos{
+    width: 40%;
+    text-align: justify;
+    float: left;
+    position: relative;
+    left: 55%;
+    /*margin-right: 50px;*/
+}
+
+
+/*Bouton Portfolio*/
+
+button {
+  border: none;
+  display: block;
+  position: relative;
+  padding: 0.7em 2.4em;
+  font-size: 18px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  color: #404040;
+  z-index: 1;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+button span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  /* border: 4px solid #404040; */
+}
+
+button span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+button:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background: #404040;
+}
+
+button:hover {
+  color: white;
+}
+
+button:active span::before {
+  background: #404040;
+}
+
+#Portfolio{
+    text-align: center;
+    clear: both;
+}
+#bouton{
+  font-family: "Boulette font", "TT Nooks Script Trial", sans-serif;
+  font-size: 180%;
+}
+/* autoportrait */
+
+#autoportrait{
+    float: right;
+    position: relative;
+    right: 55%;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: transparent;
+    width: 400px;
+    height: 635px;
+    perspective: 1000px;
+    /*font-family: "Cinzel", serif;*/
+}
+
+
+    /* carte des techniques */
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: system-ui, sans-serif;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background: linear-gradient(120deg, white 30%, #fee47d 88%,
+     white 40%, #409a81 78%);
+  color: #404040;
+  transform: rotateY(180deg);
+}
+
+.title{
+    font-family: "TT Nooks Script Trial", serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+#gif{
+    overflow: hidden;
+}
