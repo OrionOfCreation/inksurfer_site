@@ -1,6 +1,6 @@
 /* Galerie Automobile */
 
-/* Grand titre */
+/* Grand titre 
 h1{
     text-align: left;
     padding-left: 150px;
@@ -13,13 +13,13 @@ h1{
     padding-bottom: 50px;
     background-color: #409a81;
 
-}
+}*/
 
 .solid{
     clear: both;
-    font-family: serif;
-    padding-left: 150px;
-    text-align: left;
+    /*padding-left: 150px;
+    text-align: left;*/
+    text-align: center;
 }
 /* carte gouesnou */
 /* From Uiverse.io by adamgiebl */ 
@@ -44,10 +44,17 @@ h1{
 }
 
 .title{
-    font-family: "Cinzel", serif;
+    font-family: "TT Nooks Script Trial", serif;
+    font-weight: 700;
     font-size: xx-large;
 }
 
+.inside_text{
+  margin:10px;
+  padding: 20px;
+  border: 10px;
+  border-color: #404040;
+}
 .flip-card-inner {
   position: relative;
   width: 100%;
