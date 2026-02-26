@@ -1,0 +1,57 @@
+/*           ---           texte de la page d'accueil*/
+
+#logo{
+    display: block;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+#Bienvenue{
+    text-align: center;
+    font-size: 150%;
+    /*font-family: system-ui, sans-serif;*/
+}
+
+p{
+    font-family: "TT Nooks Script Trial";
+}
+/*
+.textaccueil{ 
+    font-size: 150%;
+    text-align: center;
+}
+*/
+#titre{ /*titre de la page d'accueil, nom de l'entreprise*/
+    display: block;
+    font-family: "TT Nooks Script Trial", serif;
+    font-weight: 600;
+    font-size:400% ;
+}
+
+/* mise en page des partenaires*/
+h1{
+    text-align: center;
+    font-family: "Boulette font", serif;
+    font-weight: 400;
+    font-size: 350%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #409a81;
+}
+
+/*
+h1{
+    font-weight: inherit;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #409a81;*/
+
+#partenaire{
+    text-align: center;
+    }
+.partenaire{
+    width: 200px;
+    height: 200px;
+}

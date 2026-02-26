@@ -1,0 +1,155 @@
+body {
+    background-color: #fee47d;
+    color: #404040;
+    font-size: 120%;
+    font-family: "TT Nooks Script Trial Light", system-ui, serif;
+
+    /*Police d'écriture Cinzel
+    .cinzel-<uniquifier> {
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>; /*400-900
+      font-style: normal;
+    }*/
+
+    /*Police d'écriture Boulette font*/
+    @font-face {
+        font-family: "Boulette font";
+        src: url(boulette.ttf);
+    }
+
+    /*Police d'écriture de titre*/
+    @font-face {
+        font-family: "TT Nooks Script Trial";
+        src: url(TT Nooks Script Trial Black.otf);
+    }
+
+    /*Police d'écriture de texte*/
+    @font-face {
+        font-family: "TT Nooks Script Trial Light";
+        src: url(TT Nooks Script Trial Light.otf);
+    }
+
+    /*marges*/
+    padding: 0px;
+    margin: 0px;
+}
+
+/*      ---         les fonctions de mise en page générale*/
+
+/*les strong sont normalisé*/
+strong {
+    font-weight: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*      ---       Bandeau Supérieur et Inférieur*/
+/*défintion des bandeaux*/
+.Bandeau {
+    background-color: white;
+    padding: 20px;
+    width: 120%;
+    margin-left: -20px;
+}
+
+#sup {
+    position: fixed;
+    top: 25px;
+    z-index: 2;
+}
+
+#inf {
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+}
+
+/*Bandeau sup*/
+#accueil {
+    /*Bouton de retour à l'accueil*/
+    /*box*/
+    background-color: #409a81;
+    padding: 20px;
+
+    margin-left: 50px;
+    /*text*/
+    font-family: "TT Nooks Script Trial", serif;
+    font-weight: 440;
+    font-size: larger;
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo_petit {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+
+#menu {
+    /*bande menu*/
+    position: absolute;
+    right: 20%;
+    margin-left: 200px;
+    overflow: auto;
+}
+
+
+.bouton {
+    /*bouton menu*/
+    /*box*/
+    margin-left: 20px;
+    /*text*/
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Bandeau inf*/
+#reseaux {
+    /*bouton de lien vers les réseaux sociaux*/
+    margin-left: 50px;
+}
+
+#ici {
+    color: #409a81;
+}
+
+/*Classe lien*/
+.lien {
+    background-color: #409a81;
+    font-family: "TT Nooks Script Trial", serif;
+    font-weight: 440;
+    /* text-decoration: none; */
+    color: inherit;
+    padding: 20px;
+    /* display: block; */
+    width: 200px;
+    margin: 0px auto;
+}
+
+#contact {
+    margin-left: 50px;
+}
+
+
+
+
+
+/*
+
+h1{
+    font-family: "TT Nooks Script Trial", sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+p{
+    font-family: "TT Nooks Script Trial Light";
+    font-size: medium;
+    font-weight: 400;
+
+}
