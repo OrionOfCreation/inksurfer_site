@@ -1,0 +1,101 @@
+/* Galerie Automobile */
+
+/* Grand titre */
+h1{
+    text-align: left;
+    padding-left: 150px;
+    font-family: "Boulette font", serif;
+    font-weight: 400;
+    font-size: 400%;
+    margin-top: 150px;
+    margin-bottom: -50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #409a81;
+
+}
+
+.solid{
+    clear: both;
+    font-family: serif;
+    padding-left: 150px;
+    text-align: left;
+}
+/* carte gouesnou */
+/* From Uiverse.io by adamgiebl */ 
+/* .card {
+  width: 780px;
+  height: 600px;
+  border-radius: 30px;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  overflow: hidden;
+  margin: 120px auto;
+} */
+
+    /* carte des techniques */
+.flip-card {
+    background-color: transparent;
+    width: 600px;
+    height: 450px;
+    perspective: 1000px;
+    font-size: small;
+    font-family: system-ui, sans-serif;
+}
+
+.title{
+    font-family: "Cinzel", serif;
+    font-size: xx-large;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background: linear-gradient(120deg, white 30%, #fee47d 88%,
+     white 40%, #fee47d 78%);
+  color: #404040;
+  transform: rotateY(180deg);
+}
+.flip-card-front{
+    background-color: white;
+}
+
+/* position des cartes */
+
+
+.droite{
+    margin: 80px;
+    float: left;
+}
+
+.gauche{
+    margin: 80px;
+    float: right;
+}
+
+#lieu{
+  height: 20px;
+}
