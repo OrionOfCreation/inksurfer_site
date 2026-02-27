@@ -104,8 +104,8 @@ p {
     position: absolute;
     /*le bandeau du menu ne défile pas*/
     right: 20%;
-    margin-left: 200px;
-    overflow: auto;
+    margin-left: 250px;
+    /*overflow: auto;*/
     font-size: 110%;
     font-weight: 700;
 }
@@ -113,6 +113,7 @@ p {
 .bouton {
     /*bouton menu*/
     /*box*/
+    display: inline-block;
     margin-left: 20px;
     /*text*/
     text-decoration: none;
