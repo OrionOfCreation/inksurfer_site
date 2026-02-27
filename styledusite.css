@@ -87,7 +87,7 @@ p {
 #accueil {
     /*Bouton de retour à l'accueil*/
     /*box*/
-    background-color: #409a81;
+    background-color: #404040;
     padding: 20px;
     margin-left: 50px;
 
@@ -96,7 +96,13 @@ p {
     font-weight: 500;
     font-size: larger;
     text-decoration: none;
-    color: inherit;
+    color: #fee47d;
+    transition: 0.5s;
+}
+
+#accueil:hover{
+    background-color: #fee47d;
+    color: #404040;
 }
 
 #menu {
@@ -118,6 +124,10 @@ p {
     /*text*/
     text-decoration: none;
     color: inherit;
+    transition: 0.3s;
+}
+.bouton:hover{
+    color: #fee47d;
 }
 
 /*      ---         Bandeau inf*/

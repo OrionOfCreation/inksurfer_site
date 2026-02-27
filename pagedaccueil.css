@@ -40,7 +40,6 @@ p {
 }
 
 #gouesnou{
-    border-radius: none; /*ne semble pas avoir d'effet...*/
     width: 200px;
     height: 200px;
     margin-left: 20px;
@@ -53,6 +52,7 @@ p {
 }
 #accueil {
     /*bouton d'accueil activé*/
-    background-color: #404040;
-    color: #fee47d;
+    background-color: #409a81;
+    color: #404040;
+    transition: none; /*n'a pas d'effet*/
 }
