@@ -42,7 +42,7 @@ h1{
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: inline-block;
     perspective: 1000px;
     font-size: small;
     /*font-family: system-ui, sans-serif;*/
