@@ -23,13 +23,34 @@ p {
     text-align: center;
 }
 
+
 .partenaire {
     width: 200px;
     height: 200px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 50%;
+    transition: 0.8s;
+
 }
 
+.partenaire:hover{
+    scale: 1.2;
+    box-shadow: 0 0 10px #404040;
+}
+
+#gouesnou{
+    border-radius: none; /*ne semble pas avoir d'effet...*/
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.8s;
+
+}
+#gouesnou:hover{
+    scale:1.2;
+}
 #accueil {
     /*bouton d'accueil activé*/
     background-color: #404040;
