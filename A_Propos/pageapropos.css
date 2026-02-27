@@ -26,7 +26,8 @@ h1{
 /* autoportrait */
 
 #apropos {
-  width: 40%;
+  width: 150px;
+  margin:0px, auto;
   text-align: justify;
   float: left;
   position: relative;
@@ -37,22 +38,23 @@ h1{
 #autoportrait {
   float: right;
   position: relative;
-  right: 55%;
+  right: 50%;
   padding-top: 30px;
   /*margin-left: 20px;*/
   /*background-color: transparent;*/
   /*width: 400px;
   height: 635px;*/
   height: 960px;
+  margin: 0px, auto;
   perspective: 1000px;
   /*font-family: "Cinzel", serif;*/
 }
 
 
+
 /* carte des techniques */
 .flip-card {
   padding-bottom:30px;
-
   background-color: transparent;
   width: 400px;
   height: 300px;
