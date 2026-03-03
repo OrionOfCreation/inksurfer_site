@@ -50,9 +50,3 @@ p {
 #gouesnou:hover{
     scale:1.2;
 }
-#accueil {
-    /*bouton d'accueil activé*/
-    background-color: #409a81;
-    color: #404040;
-    transition: none; /*n'a pas d'effet*/
-}
