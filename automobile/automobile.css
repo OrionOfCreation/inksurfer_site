@@ -1,29 +1,14 @@
 /* Galerie Automobile */
 
-/* Grand titre 
-h1{
-    text-align: left;
-    padding-left: 150px;
-    font-family: "Boulette font", serif;
-    font-weight: 400;
-    font-size: 400%;
-    margin-top: 150px;
-    margin-bottom: -50px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    background-color: #409a81;
-
-}*/
-
-.solid{
-    clear: both;
-    /*padding-left: 150px;
-    text-align: left;*/
-    text-align: center;
+.solid {
+  /*retrouvez moi au rdv des VAG*/
+  /*clear: both;*/
+  text-align: center;
 }
 
+
 /* carte gouesnou */
-/* From Uiverse.io by adamgiebl */ 
+/* From Uiverse.io by adamgiebl */
 /* .card {
   width: 780px;
   height: 600px;
@@ -34,27 +19,21 @@ h1{
   margin: 120px auto;
 } */
 
-    /* carte des techniques */
+/* flip-card du portfolio */
 .flip-card {
-    background-color: transparent;
-    width: 600px;
-    height: 450px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    perspective: 1000px;
-    font-size: small;
-    /*font-family: system-ui, sans-serif;*/
-}
-
-.title{
-    font-family: "TT Nooks Script Trial", serif;
-    font-weight: 700;
-    font-size: xx-large;
+  background-color: transparent;
+  width: 600px;
+  height: 450px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  perspective: 1000px;
+  font-size: small;
 }
 
 .flip-card-inner {
+  /*paramètre de l'image, face avant de la carte*/
   position: relative;
   width: 100%;
   height: 100%;
@@ -64,11 +43,14 @@ h1{
 }
 
 .flip-card:hover .flip-card-inner {
+  /*rotation de la flip-card*/
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+.flip-card-front,
+.flip-card-back {
+  /*paramètre de la flip-card*/
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -80,21 +62,46 @@ h1{
 }
 
 .flip-card-back {
-  /*background: linear-gradient(120deg, white 30%, #fee47d 88%,
-     white 40%, #fee47d 78%);*/
+  /*face arrière*/
   background-color: #404040;
   color: white;
   transform: rotateY(180deg);
 }
-.flip-card-front{
-    background-color: white;
+
+.title {
+  /*titre de la face arrière de la carte*/
+  font-family: "TT Nooks Script Trial", serif;
+  font-weight: 700;
+  font-size: xx-large;
 }
 
+.flip-card-front {
+  /*face avant*/
+  background-color: white;
+}
 
-#image{
+#image {
+  /*Centrer les flip-card position responsive*/
   text-align: center;
 }
 
-#lieu{
-  height: 20px;
+.lieu {
+  /*Vignette vous êtes ici du rdv des VAG*/
+  height: 25px;
+  transition: 0.3s;
+}
+
+.lieu:hover {
+  scale: 1.5;
+}
+
+.gouesnou {
+  /* lien cliquable vers le facebook des VAG, ne marche pas, et je ne comprends pas pourquoi*/
+  transition: 0.3s;
+}
+
+.gouesnou.hover {
+  scale: 1.2;
+  text-decoration: underline black;
+  color: black;
 }
