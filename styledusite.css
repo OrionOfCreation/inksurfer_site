@@ -14,9 +14,6 @@
 body {
     background-color: #fee47d;
     color: #404040;
-
-
-
     font-family: "TT Nooks Script Trial Light",
         serif;
     font-size: 120%;
@@ -156,10 +153,11 @@ p {
 .lien {
     background-color: #409a81;
     font-family: "TT Nooks Script Trial", serif;
-    font-weight: 440;
+    font-weight: 400;
+    font-size: 150%;
     color: inherit;
     padding: 20px;
-    width: 200px;
+    width: 7em;
     margin: 0px auto;
 }
 
