@@ -40,7 +40,7 @@ a {
 h1 {
     font-family: "TT Nooks Script Trial", serif;
     font-size: 400%;
-    font-weight: 800;
+    font-weight: 500;
     text-align: center;
     background: linear-gradient(0deg, #fee47d 39%, #409a81 0%);
     margin-top: 0px;
@@ -91,7 +91,7 @@ p {
     display: inline-block;
     /*text*/
     font-family: "TT Nooks Script Trial", serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: larger;
     text-decoration: none;
     color: #404040;
