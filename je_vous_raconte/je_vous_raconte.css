@@ -1,6 +1,6 @@
 #page{        
     text-align: center;
-    font-family: "Boulette font", serif;
+    font-family: "TT Nooks Script Trial Ligth", serif;
     font-weight: 400;
 
 }
@@ -62,11 +62,11 @@ video{
     height: 450px;
     perspective: 1000px;
     font-size: small;
-    font-family: system-ui, sans-serif;
+    font-family: "TT Nooks Script Trial Light", serif;
 }
 
 .title{
-    font-family: "Cinzel", serif;
+    font-family: "TT Nooks Script Trial", serif;
     font-size: large;
 }
 

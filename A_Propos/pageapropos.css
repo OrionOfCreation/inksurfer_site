@@ -7,7 +7,7 @@
 }
 
 #bouton {
-  font-family: "TT Nooks Script Trial", sans-serif;
+  font-family: "TT Nooks Script Trial", serif;
   font-size: 180%;
   font-weight: 700;
 }
@@ -41,7 +41,7 @@
   width: 400px;
   height: 300px;
   perspective: 1000px;
-  font-family: system-ui, sans-serif;
+  font-family: "TT Nooks Script Trial Light" serif;
 }
 
 .flip-card-inner {
